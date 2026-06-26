@@ -1,0 +1,46 @@
+body{
+    font-family: Arial,;
+    background:#B0C4DE;
+    text-align:center;
+    margin-top:  80px;
+}
+
+h1{
+    color:#005b96;
+
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+    width: 180px;
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+    width: 180px;
+
+}
+
+button{
+    padding: 10px  20px;
+    font-size: 18px;
+    background: #2196F3;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: #1976d2;
+
+}
+
+#mensaje{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+}

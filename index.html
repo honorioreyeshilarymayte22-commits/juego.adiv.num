@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adivina el número</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <h1>Adivina el número</h1>
+    <p>Estoy pensando en un número del 1 al 100</p>
+
+    <input
+    type="number"
+    id="numero"
+    placeholder="Escribe un número">
+    <br><br>
+
+    <button onclick="comprobar()">
+        intentar
+    </button>
+  
+    <br><br>
+
+<button onclick="reiniciar()">Reiniciar juego</button>
+
+<p id="intentos">Intentos: 0</p>
+
+
+<p id="mensaje"></p>
+
+<p>Historial: <span id="historial">Ninguno</span></p>
+
+    <center> <footer>Juego creado por Hilarygod</footer></center>
+   
+</body>
+</html>
